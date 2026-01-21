@@ -13,7 +13,7 @@ func main() {
 	fmt.Scan(&age)
 	fmt.Printf("Sua idade é: %d\n", age)
 	var anoAtual int
-	fmt.Print("Digite o ano atual: ")
+	fmt.Println("Digite o ano atual: ")
 	fmt.Scan(&anoAtual)
 	anoNascimento := anoAtual - age
 	fmt.Printf("Você nasceu em: %d\n", anoNascimento)
